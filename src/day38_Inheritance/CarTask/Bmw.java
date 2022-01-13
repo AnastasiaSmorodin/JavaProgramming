@@ -7,5 +7,7 @@ public class Bmw extends Car{
 public void breaksDown(){
     System.out.println(brand+ model+ "is breaking down a lot");
 }
-
+public void isRacing(){
+    System.out.println(brand+"is racing");
+}
 }
