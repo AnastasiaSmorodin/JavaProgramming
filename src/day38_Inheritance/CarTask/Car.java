@@ -18,10 +18,10 @@ public class Car {
     }
 
     public  void start(){
-        System.out.println(brand+model+ "has started the engine");
+        System.out.println(brand+" "+model+ " has started the engine");
     }
     public void drive(){
-        System.out.println(brand + model+"is in motion");
+        System.out.println(brand +" "+ model+" is in motion");
     }
 
     public String toString() {

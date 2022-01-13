@@ -7,6 +7,6 @@ public class Toyota extends Car {
         super("Toyota", model, year, price, color, miles);
     }
     public void isReliable(){
-        System.out.println(brand+ model+ " is very reliable");
+        System.out.println(brand+" "+ model+ " is very reliable");
     }
 }
