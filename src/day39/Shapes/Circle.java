@@ -13,6 +13,21 @@ public static  double pi= 3.14;
         return radius;
     }
 
+    @Override
+    public double area() {
+        return radius*radius*pi;
+    }
+
+    @Override
+    public double perimeter() {
+        return 2*pi*radius;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public void setRadius(double radius) {
 
         if(radius<=0){
@@ -20,6 +35,9 @@ public static  double pi= 3.14;
             System.exit(1);
             this.radius = radius;
     }
+
+
+
 
 
 
